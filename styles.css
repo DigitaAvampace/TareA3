@@ -1,0 +1,87 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Cuerpo y tipografía */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #F4F4F9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+  background: linear-gradient(90deg, #D8BFD8, #87CEEB); /* Morado claro a azul cielo */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2em;
+  margin-bottom: 5px;
+}
+
+/* Contenido principal */
+main {
+  padding: 20px;
+}
+
+/* Secciones colapsables */
+.collapsible {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #E0F2F1; /* Verde suave */
+}
+
+.collapsible h2 {
+  padding: 15px;
+  background-color: #B19CD9; /* Morado claro */
+  color: #fff;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 8px 8px 0 0;
+}
+
+.collapsible .content {
+  padding: 15px;
+  display: block;
+}
+
+/* Contenedor para videos alineados horizontalmente */
+.video-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+/* Recursos en secciones divididas */
+.recursos {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.recurso {
+  flex: 1;
+  min-width: 250px;
+  background-color: #F0F8FF; /* Azul cielo claro */
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* Footer */
+footer {
+  background-color: #87CEEB;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin-top: 40px;
+}
