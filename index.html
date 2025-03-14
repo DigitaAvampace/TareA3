@@ -3,120 +3,159 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Tarea 3: Digitalización Aplicada al Sector Educativo (0-3 Años)</title>
+  <title>Digitalizaci贸n en Educaci贸n Infantil</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   <link rel="stylesheet" href="styles.css">
-  <script src="script.js" defer></script>
 </head>
 <body>
-  <header>
-    <h1>TAREA 3: DIGITALIZACIÓN APLICADA AL SECTOR EDUCATIVO (0-3 AÑOS)</h1>
-    <p>Nombre: Ana Maria da Cunha Goncalves | Curso Académico: 2024/2025</p>
+  <!-- Bot贸n modo oscuro -->
+  <div class="theme-toggle">
+    <i class="fas fa-moon"></i>
+  </div>
+
+  <!-- PORTADA peque帽a en formato 3D -->
+  <section class="portada">
+    <div class="portada-content">
+      <h1>馃懚馃捇 Digitalizaci贸n en Educaci贸n Infantil</h1>
+      <p>Transformando el aprendizaje con tecnolog铆a inclusiva</p>
+    </div>
+  </section>
+
+  <!-- CABECERA grande con imagen redimensionada -->
+  <header class="header-3d">
+    <div class="header-overlay">
+      <img src="https://github.com/DigitaAvampace/Tarea3/blob/main/finalidad.jpg?raw=true" alt="Imagen de cabecera" class="header-img">
+      <h2>Ana Maria da Cunha Goncalves</h2>
+      <p>Curso Acad茅mico: 2024/2025</p>
+    </div>
   </header>
 
+  <!-- INTRODUCCI脫N -->
+  <section class="introduccion">
+    <h2>Introducci贸n a la Tarea</h2>
+    <p>
+      Esta plataforma est谩 dedicada a la transformaci贸n digital en la educaci贸n infantil. Se explora c贸mo integrar tecnolog铆as innovadoras en el aula para mejorar la inclusi贸n, potenciar el aprendizaje personalizado y preparar a los ni帽os para un futuro digital. El presente documento organiza, de forma acad茅mica, la descripci贸n de la tecnolog铆a, su funci贸n, requerimientos, recursos, un ejemplo pr谩ctico y conclusiones.
+    </p>
+  </section>
+
+  <!-- PANEL GROUP: Contenido Acad茅mico -->
   <main>
-    <!-- Sección: Descripción de la Tecnología -->
-    <section class="collapsible">
-      <h2>1. Descripción de la Tecnología</h2>
-      <div class="content">
-        <p>Los recursos digitales para NEE son herramientas diseñadas para facilitar el aprendizaje y la comunicación en niños con dificultades en el desarrollo. Ejemplos: PictogramAgenda, Proloquo2Go y Smile and Learn.</p>
-        <img src="http://wwwhatsnew.com/wp-content/uploads/2012/12/ZAC.jpg" alt="Imagen ZAC">
-      </div>
-    </section>
-
-    <!-- Sección: Función y Finalidad -->
-    <section class="collapsible">
-      <h2>2. Función y Finalidad</h2>
-      <div class="content">
-        <ul>
-          <li>Facilitar la comunicación de niños con dificultades en el habla.</li>
-          <li>Proporcionar materiales interactivos adaptados a distintas necesidades.</li>
-          <li>Mejorar la inclusión de niños con NEE en el aula.</li>
-          <li>Potenciar la independencia y el desarrollo social.</li>
-        </ul>
-        <div class="video-row">
-          <!-- Video Proloquo2Go -->
-          <iframe width="300" height="168" src="https://www.youtube.com/embed/yOUBrRD3VDQ" 
-            title="Proloquo2Go" frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-            allowfullscreen>
-          </iframe>
-          <!-- Video PictogramAgenda -->
-          <iframe width="300" height="168" src="https://www.youtube.com/embed/iSB9sF9xobU" 
-            title="PictogramAgenda" frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-            allowfullscreen>
-          </iframe>
-          <!-- Video Smile and Learn -->
-          <iframe width="300" height="168" src="https://www.youtube.com/embed/fGLQXDM1Y2c" 
-            title="Smile and Learn" frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-            allowfullscreen>
-          </iframe>
+    <div class="panel-group">
+      <!-- PANEL 1: Descripci贸n de la Tecnolog铆a -->
+      <section id="descripcion" class="panel">
+        <h2 class="panel-header">1. Descripci贸n de la Tecnolog铆a</h2>
+        <div class="panel-content">
+          <p>
+            Las herramientas digitales para necesidades educativas especiales facilitan la comunicaci贸n y el aprendizaje. Se emplean aplicaciones como <strong>PictogramAgenda</strong>, <strong>Proloquo2Go</strong> y <strong>Smile and Learn</strong> para adaptar contenidos y m茅todos pedag贸gicos.
+          </p>
+          <p>
+            Desde un enfoque acad茅mico, estas herramientas permiten personalizar el aprendizaje y atender la diversidad de cada alumno.
+          </p>
+          <img src="http://wwwhatsnew.com/wp-content/uploads/2012/12/ZAC.jpg" alt="Tecnolog铆a educativa" loading="lazy">
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Sección: Requerimientos para su Implementación -->
-    <section class="collapsible">
-      <h2>3. Requerimientos para su Implementación</h2>
-      <div class="content">
-        <ul>
-          <li>Infraestructura tecnológica: Tablets o computadoras con acceso a internet.</li>
-          <li>Software: Aplicaciones o plataformas de aprendizaje adaptativo.</li>
-          <li>Capacitación del personal: Formación en el uso de herramientas específicas.</li>
-          <li>Colaboración con terapeutas y especialistas.</li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- Sección: Recursos Necesarios -->
-    <section class="collapsible">
-      <h2>4. Recursos Necesarios</h2>
-      <div class="content recursos">
-        <div class="recurso">
-          <h3>Centro Educativo</h3>
+      <!-- PANEL 2: Funci贸n y Finalidad -->
+      <section id="funcion" class="panel">
+        <h2 class="panel-header">2. Funci贸n y Finalidad</h2>
+        <div class="panel-content">
+          <p>
+            El prop贸sito de estas herramientas es mejorar la comunicaci贸n y promover la autonom铆a del alumno. Entre sus objetivos destacan:
+          </p>
           <ul>
-            <li>Dispositivos tecnológicos adecuados.</li>
-            <li>Formación específica para docentes y terapeutas.</li>
-            <li>Diseño de planes de enseñanza inclusivos.</li>
+            <li><strong>Facilitar la comunicaci贸n:</strong> Mejorar la interacci贸n en ni帽os con dificultades del habla.</li>
+            <li><strong>Proveer materiales interactivos:</strong> Adaptados a las necesidades individuales.</li>
+            <li><strong>Fomentar la inclusi贸n y autonom铆a:</strong> Creando un entorno de aprendizaje participativo.</li>
+          </ul>
+          <div class="video-row">
+            <iframe src="https://www.youtube.com/embed/yOUBrRD3VDQ" allowfullscreen loading="lazy"></iframe>
+            <iframe src="https://www.youtube.com/embed/iSB9sF9xobU" allowfullscreen loading="lazy"></iframe>
+          </div>
+        </div>
+      </section>
+
+      <!-- PANEL 3: Requerimientos para su Implementaci贸n -->
+      <section id="requerimientos" class="panel">
+        <h2 class="panel-header">3. Requerimientos para su Implementaci贸n</h2>
+        <div class="panel-content">
+          <p>
+            Para una correcta implementaci贸n es indispensable contar con:
+          </p>
+          <ul>
+            <li><strong>Infraestructura tecnol贸gica:</strong> Tablets, computadoras e Internet estable.</li>
+            <li><strong>Software adaptativo:</strong> Aplicaciones especializadas que permitan personalizar la experiencia.</li>
+            <li><strong>Capacitaci贸n docente:</strong> Formaci贸n continua y actualizaci贸n en metodolog铆as digitales.</li>
+            <li><strong>Colaboraci贸n interdisciplinaria:</strong> Trabajo conjunto con terapeutas y especialistas en educaci贸n inclusiva.</li>
           </ul>
         </div>
-        <div class="recurso">
-          <h3>Familias</h3>
-          <ul>
-            <li>Dispositivos compatibles en el hogar.</li>
-            <li>Participación en la formación y adaptación de recursos.</li>
-            <li>Coordinación con el centro educativo.</li>
-          </ul>
+      </section>
+
+      <!-- PANEL 4: Recursos Necesarios -->
+      <section id="recursos" class="panel">
+        <h2 class="panel-header">4. Recursos Necesarios</h2>
+        <div class="panel-content">
+          <div class="recursos">
+            <div class="recurso">
+              <h3>Centro Educativo</h3>
+              <p>
+                Dispositivos tecnol贸gicos actualizados, capacitaci贸n y planes de ense帽anza inclusivos.
+              </p>
+            </div>
+            <div class="recurso">
+              <h3>Familias</h3>
+              <p>
+                Acceso a dispositivos en casa y participaci贸n activa en el proceso educativo.
+              </p>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Sección: Ejemplo de Implementación -->
-    <section class="collapsible">
-      <h2>5. Ejemplo de Implementación</h2>
-      <div class="content">
-        <p>En un centro de educación infantil se implementó PictogramAgenda para ayudar a niños con dificultades en la comunicación verbal, facilitando la interacción y fomentando la autonomía.</p>
-        <!-- Video insertado -->
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/BZQKXAyRYms" 
-          title="Ejemplo de implementación" frameborder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-          allowfullscreen>
-        </iframe>
-      </div>
-    </section>
+      <!-- PANEL 5: Ejemplo de Implementaci贸n -->
+      <section id="ejemplo" class="panel">
+        <h2 class="panel-header">5. Ejemplo de Implementaci贸n</h2>
+        <div class="panel-content">
+          <p>
+            Se implement贸 <strong>PictogramAgenda</strong> para mejorar la comunicaci贸n y fomentar la autonom铆a. Este ejemplo pr谩ctico evidencia la eficacia de la integraci贸n digital en el entorno educativo.
+          </p>
+          <div class="video-row">
+            <iframe src="https://www.youtube.com/embed/BZQKXAyRYms" allowfullscreen loading="lazy"></iframe>
+          </div>
+        </div>
+      </section>
 
-    <!-- Sección: Conclusión -->
-    <section class="collapsible">
-      <h2>Conclusión</h2>
-      <div class="content">
-        <p>El uso de recursos digitales para NEE mejora la comunicación y el aprendizaje en niños con dificultades, requiriendo dispositivos adecuados, formación docente y colaboración especializada para una inclusión exitosa.</p>
-      </div>
+      <!-- PANEL 6: Conclusi贸n -->
+      <section id="conclusion" class="panel">
+        <h2 class="panel-header">6. Conclusi贸n</h2>
+        <div class="panel-content">
+          <p>
+            La digitalizaci贸n en la educaci贸n infantil posibilita una experiencia de aprendizaje personalizada y fomenta la inclusi贸n. Su 茅xito depende de contar con una infraestructura adecuada, capacitaci贸n docente y una colaboraci贸n estrecha entre centros, familias y especialistas.
+          </p>
+        </div>
+      </section>
+    </div>
+
+    <!-- BIBLIOGRAF脥A -->
+    <section id="bibliografia" class="bibliografia">
+      <h2>Bibliograf铆a</h2>
+      <ul>
+        <li>"El impacto de la digitalizaci贸n en la Educaci贸n Infantil: retos y oportunidades" - Areta Goyeneche, Silvia (2024).</li>
+        <li>"El uso de las tecnolog铆as en la educaci贸n infantil en 2025" - Innovaland (2024).</li>
+        <li>"Desarrollo de competencias digitales en la educaci贸n infantil" - Revista Pixel-Bit, DOI:10.62943/rck.v2n1.2023.40 (2023).</li>
+        <li>"Ni presencial ni 'online': el futuro de la educaci贸n est谩 en lo h铆brido" - El Pa铆s (2025).</li>
+        <li>"Escolares de Alzira han creado un escudo contra la soledad" - Cadena SER (2025).</li>
+        <li>"La digitalizaci贸n infantil: no es ponerlos frente a pantallas" - Gonzalo Alonso (2019).</li>
+        <li>"Material Curricular".</li>
+      </ul>
     </section>
   </main>
 
+  <!-- PIE DE P脕GINA -->
   <footer>
-    <p>&copy; Ana Maria da Cunha Goncalves 2024/2025 - Digitalización en Educación Infantil</p>
+    <p>&copy; 2024/2025 - Digitalizaci贸n en Educaci贸n Infantil</p>
+    <p id="datetime"></p>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
