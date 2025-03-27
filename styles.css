@@ -18,7 +18,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   background-color: var(--color-fondo);
   color: var(--color-primario);
-  line-height: 1.5;
+  line-height: 1.0;
   scroll-behavior: smooth;
 }
 body {
@@ -68,7 +68,7 @@ p {
   border-radius: 60%;
   box-shadow: inset 4px 4px 8px rgba(255,255,255,0.8),
               inset -4px -4px 8px rgba(0,0,0,0.2);
-  transform: perspective(1000px) rotateX(4deg);
+  transform: perspective(1000px) rotateX(2deg);
   position: relative;
   overflow: hidden;
 }
