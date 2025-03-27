@@ -18,7 +18,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   background-color: var(--color-fondo);
   color: var(--color-primario);
-  line-height: 1.5;
+  line-height: 1.75;
   scroll-behavior: smooth;
 }
 body {
@@ -45,7 +45,7 @@ body {
 h1, h2, h3 {
   font-family: 'Comic Sans Ms', cursive;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
-  margin-bottom: 0.70rem;
+  margin-bottom: 0.75rem;
 }
 
 /* Estilo para párrafos: texto en color azul */
@@ -54,7 +54,7 @@ p {
   background: linear-gradient(145deg, #ffffff, #e0e0e0);
   border: 1px solid #ccc;
   box-shadow: inset 2px 2px 4px rgba(255,255,255,0.8), inset -2px -2px 4px rgba(0,0,0,0.15);
-  padding: 10px;
+  padding: 20px;
   margin-bottom: 10px;
 }
 
