@@ -18,7 +18,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   background-color: var(--color-fondo);
   color: var(--color-primario);
-  line-height: 0.75;
+  line-height: 1.05;
   scroll-behavior: smooth;
 }
 body {
